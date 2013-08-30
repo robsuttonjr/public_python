@@ -1,4 +1,4 @@
-import os, pdb, psycopg2
+#!/usr/bin/env python
 
 # fedex_cir_import.py
 # Created by Rob Sutton on 08/24/13
@@ -10,6 +10,8 @@ import os, pdb, psycopg2
 # I am always open to ideas.
 
 print 'begin script - fedex_cir_import.py'
+
+import os, pdb, psycopg2
 
 path = '/usr/local/cirdata/'
 imported = '/usr/local/cirdata/imported/'
