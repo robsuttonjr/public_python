@@ -1,5 +1,13 @@
 import os, pdb, psycopg2
 
+# fedex_cir_import.py
+# Created by Rob Sutton on 08/24/13
+# robsuttonjr@yahoo.com 
+#
+# Simple script to extract Fedex CIR report from a file created from email.
+# I prefer a simple script over building classes for everything.  
+# Maybe one day I will put into a class who knows but for now, this is it!
+# I am always open to ideas.
 
 print 'begin script - fedex_cir_import.py'
 
